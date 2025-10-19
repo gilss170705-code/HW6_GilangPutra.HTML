@@ -1,33 +1,92 @@
-# HW6_GilangPutra.HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+<title>Muhammad Gilang Putra Ariyanto - Resume</title>
+<style>
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #222;
+    background: #fff;
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.6;
+    padding: 40px;
+  }
+
+  h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 0.2em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    margin: 0;
+  }
+
+  h2 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+  }
+
+  /* Layout for top section */
   .header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-}
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
 
-.header img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
+  .header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 25px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
 
-.header-text {
-  text-align: left;
-}
+  .header-text {
+    flex: 1;
+  }
+
+  .contact {
+    font-size: 0.9em;
+    margin-top: 6px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .section {
+    margin-top: 20px;
+  }
+
+  .item {
+    margin-bottom: 15px;
+  }
+
+  .item-title {
+    font-weight: 600;
+  }
+
+  .sub {
+    font-size: 0.9em;
+    color: #555;
+  }
+</style>
+</head>
 <body>
   <div class="header">
     <img src="profile.jpg" alt="Profile Photo">
-    <h1>Muhammad Gilang Putra Ariyanto</h1>
-    <div class="contact">
-      📧 gilangputraar17@gmail.com | 📞 +62 877-8762-9555 (ID) | +886 970-223-087 (TW)<br>
-      📍 Indonesia
+    <div class="header-text">
+      <h1>Muhammad Gilang Putra Ariyanto</h1>
+      <div class="contact">
+        📧 gilangputraar17@gmail.com | 📞 +62 877-8762-9555 (ID) | +886 970-223-087 (TW)<br>
+        📍 Indonesia
+      </div>
     </div>
   </div>
 
