@@ -1,0 +1,122 @@
+# HW6_GilangPutra.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+  .header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.header-text {
+  text-align: left;
+}
+<body>
+  <div class="header">
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Muhammad Gilang Putra Ariyanto</h1>
+    <div class="contact">
+      📧 gilangputraar17@gmail.com | 📞 +62 877-8762-9555 (ID) | +886 970-223-087 (TW)<br>
+      📍 Indonesia
+    </div>
+  </div>
+
+  <h2>Profile Summary</h2>
+  <p>Highly motivated and persistent international undergraduate student pursuing dual majors in Business Management at Sepuluh Nopember Institute of Technology and Finance at Asia University, Taiwan. Passionate about learning, exploring new challenges, and creating impactful solutions through strong teamwork, leadership, and analytical problem-solving in both operational and financial contexts.</p>
+
+  <h2>Education</h2>
+  <div class="item">
+    <div class="item-title">Asia University, Taiwan</div>
+    <div class="sub">Bachelor of Finance | Sep 2025 – Present</div>
+    <div>Double Degree with ITS Surabaya</div>
+  </div>
+  <div class="item">
+    <div class="item-title">Institut Teknologi Sepuluh Nopember (ITS), Indonesia</div>
+    <div class="sub">Bachelor of Business Management | Aug 2023 – Present</div>
+  </div>
+  <div class="item">
+    <div class="item-title">SMAN 8 Kota Bogor</div>
+    <div class="sub">2020 – 2023</div>
+    <div>Graduated with above average grades (GPA: 92.85/100)</div>
+  </div>
+
+  <h2>Committee Experiences</h2>
+  <div class="item">
+    <div class="item-title">Vice Project Officer of SAFARY ILITS 2025</div>
+    <div class="sub">Safary ILITS | Nov 2024 – Feb 2025</div>
+    <ul>
+      <li>Led event planning and execution process</li>
+      <li>Coordinated team activities, managed timelines and resources</li>
+      <li>Successfully partnered with Ruangguru during the event</li>
+      <li>Monitored financial inflows and outflows during the event</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-title">Staff of Technical Division</div>
+    <div class="sub">Manajemen Bisnis Festival (MANIFEST) 2024 | Aug 2023 – Jul 2023</div>
+    <ul>
+      <li>Managed event logistics and technical operations to ensure smooth execution</li>
+      <li>Supported equipment setup, troubleshooting, and coordination between teams</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-title">Staff of IT Division</div>
+    <div class="sub">Safary ILITS 2024 | Nov 2023 – Feb 2024</div>
+    <ul>
+      <li>Prepared presentations and digital systems for school tours</li>
+      <li>Created pretests and post-tests for student participants</li>
+      <li>Pitched to sponsors for additional funding</li>
+    </ul>
+  </div>
+
+  <div class="item">
+    <div class="item-title">Staff of Legislative and Aspirations Committee</div>
+    <div class="sub">Student Representatives Council of SMAN 8 Kota Bogor | May 2021 – Dec 2022</div>
+    <ul>
+      <li>Collected and represented students’ aspirations</li>
+      <li>Assisted in drafting school regulations</li>
+      <li>Supported legislative discussions within the council</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="section">
+    <strong>Technical Skills:</strong>
+    <ul>
+      <li>Microsoft 365</li>
+      <li>Google Workspace</li>
+      <li>Sponsorship & Business Planning</li>
+      <li>Canva</li>
+      <li>Basic Financial Accounting</li>
+      <li>Basic Operations Management</li>
+    </ul>
+    <strong>Soft Skills:</strong>
+    <ul>
+      <li>Negotiation and Communication</li>
+      <li>Adaptability</li>
+      <li>Leadership & Teamwork</li>
+      <li>Critical Thinking</li>
+      <li>Brainstorming</li>
+    </ul>
+  </div>
+
+  <h2>Languages</h2>
+  <ul>
+    <li>English: Proficient</li>
+    <li>Bahasa Indonesia: Native</li>
+    <li>Mandarin Traditional: Beginner</li>
+  </ul>
+</body>
+</html>
